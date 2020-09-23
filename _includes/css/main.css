@@ -246,6 +246,10 @@ section.success {
     z-index: 2;
 }
 
+.portfolio-flex-row {
+    margin-top: 30px;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;

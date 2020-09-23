@@ -1,5 +1,5 @@
 # Site settings
-title: I'm Quang.
+title: I'm Quang
 email: qnguyen18@earlham.edu
 url: https://www.linkedin.com/in/quangbanguyen/
 description: "I integrate insightful design solutions into tech products."
@@ -41,10 +41,11 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/quangbanguyen/
-  - title: instagram
-    url: https://www.instagram.com/quangror/
   - title: github
     url: https://github.com/quangbnguyen
+  - title: instagram
+    url: https://www.instagram.com/quangror/
+
 
 # Postal address (add as many lines as necessary)
 # address:
