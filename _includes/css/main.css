@@ -16,6 +16,10 @@ p.small {
     font-size: 16px;
 }
 
+.navbar-brand:hover {
+    color: #9ea1a3;
+}
+
 a,
 a:hover,
 a:focus,
@@ -23,10 +27,6 @@ a:active,
 a.active {
     outline: 0;
     /* color: #{{ site.color.primary }}; */
-    color: #9ea1a3;
-}
-
-.navbar-brand:hover {
     color: #9ea1a3;
 }
 
