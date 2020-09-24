@@ -50,7 +50,7 @@ prototype-pro-1: easy-hifi-basic-1.png
 prototype-pro-1-statement: Sign-in
 prototype-pro-2: easy-hifi-basic-2.png
 prototype-pro-2-statement: Sign-up
-usability-testing: Usability Testing
+usability-testing: Usability Testing and Design Iterations
 usability-statement: I conducted unmoderated remote usability testing using Lookback. Some students were sent emails with an invitation to participate in the study anytime and at any place they want.
 issues: Below are the most significant usability issues
 issue-1: The user-information button is currently on the top-left corner of the home page, which is unfamiliar to some users

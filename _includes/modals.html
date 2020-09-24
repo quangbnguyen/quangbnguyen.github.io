@@ -67,6 +67,13 @@
                                 </ul>
                             {% endif %}
 
+                            {% if post.user-market %}
+                                <h3 style="margin-top: 30px;">{{ post.user-market }}</h3>
+                                <p>{{ post.user-market-1 }}</p>
+                                <p>{{ post.user-market-2 }}</p>
+                                <p>{{ post.user-market-3 }}</p>
+                            {% endif %}
+
                             {% if post.user-research %}
                                 <h3 style="margin-top: 30px;">User Research</h3>
                                 {% if post.research-questions %}
@@ -141,6 +148,16 @@
                                 <p>{{ post.synthesis-statement-4 }}</p>
                             {% endif %}
 
+                            {% if post.bee-synthesis %}
+                                <h3 style="margin-top: 30px;">{{ post.bee-synthesis }}</h3>
+                                <p>{{ post.bee-synthesis-statement }}: </p>
+                                <ol style="font-size: 20px;">
+                                    <li>{{ post.bee-synthesis-statement-1 }}</li>
+                                    <li>{{ post.bee-synthesis-statement-2 }}</li>
+                                    <li>{{ post.bee-synthesis-statement-3 }}</li>
+                                </ol>
+                            {% endif %}
+
                             {% if post.adjustments %}
                                 <h3 style="margin-top: 30px;">{{ post.adjustments }}</h3>
                                 <p>{{ post.adjustments-statement }}: </p>
@@ -175,11 +192,11 @@
                                 <h3 style="margin-top: 30px;">{{ post.ideation-sketch }}</h3>
                                 <p>{{ post.ideation-statement }}</p>
                                 <figure style="text-align: center;">
-                                    <img src="img/portfolio/{{ post.ideation-1 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
-                                    <figcaption>{{ post.ideation-1-caption }}</figcaption> 
+                                    <img src="img/portfolio/{{ post.ideation-1 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px; margin-bottom: 0">
+                                    <figcaption style="margin-bottom: 50px;">{{ post.ideation-1-caption }}</figcaption> 
                                 </figure>
                                 <figure style="text-align: center;">
-                                    <img src="img/portfolio/{{ post.ideation-2 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
+                                    <img src="img/portfolio/{{ post.ideation-2 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px; margin-bottom: 0">
                                     <figcaption>{{ post.ideation-2-caption }}</figcaption> 
                                 </figure>
                             {% endif %}
@@ -187,12 +204,12 @@
                             {% if post.high-fidelity-pro %}
                                 <h3 style="margin-top: 30px;">{{ post.high-fidelity-pro }}</h3>
                                 <figure style="text-align: center;">
-                                    <img src="img/portfolio/{{ post.prototype-pro-1 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
-                                    <figcaption>{{ post.prototype-pro-1-statement }}</figcaption> 
+                                    <img src="img/portfolio/{{ post.prototype-pro-1 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px; margin-top: 20px; margin-bottom: 0;">
+                                    <figcaption style="margin-bottom: 30px; margin-top: 5px;">{{ post.prototype-pro-1-statement }}</figcaption> 
                                 </figure>
                                 <figure style="text-align: center;">
-                                    <img src="img/portfolio/{{ post.prototype-pro-2 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
-                                    <figcaption>{{ post.prototype-pro-2-statement }}</figcaption> 
+                                    <img src="img/portfolio/{{ post.prototype-pro-2 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px; margin-top: 20px; margin-bottom: 0;">
+                                    <figcaption style="margin-top: 5px;">{{ post.prototype-pro-2-statement }}</figcaption> 
                                 </figure>
                             {% endif %}
 
@@ -234,29 +251,44 @@
 
                                 {% if post.prototype-fixed %}
                                     <figure style="text-align: center;">
-                                        <img src="img/portfolio/{{ post.prototype-1-fixed }}" class="img-responsive img-centered" alt="Prototype Sign-in" style="width:700px;">
-                                        <figcaption style="margin-bottom: 10px;">{{ post.prototype-1-statement }}</figcaption>
+                                        <img src="img/portfolio/{{ post.prototype-1-fixed }}" class="img-responsive img-centered" alt="Prototype Sign-in" style="width:700px; margin-top: 30px; margin-bottom: 0;">
+                                        <figcaption style="margin-bottom: 30px; margin-top: 5px;">{{ post.prototype-1-statement }}</figcaption>
                                     </figure>
                                     <figure style="text-align: center;">
-                                        <img src="img/portfolio/{{ post.prototype-2-fixed }}" class="img-responsive img-centered" alt="Prototype Home" style="width:700px;">
-                                        <figcaption style="margin-bottom: 30px;">{{ post.prototype-2-statement }}</figcaption>
+                                        <img src="img/portfolio/{{ post.prototype-2-fixed }}" class="img-responsive img-centered" alt="Prototype Home" style="width:700px; margin-bottom: 0;">
+                                        <figcaption style="margin-bottom: 30px; margin-top: 5px;">{{ post.prototype-2-statement }}</figcaption>
                                     </figure>
                                     <figure style="text-align: center;">
-                                        <img src="img/portfolio/{{ post.prototype-3-fixed }}" class="img-responsive img-centered" alt="Prototype Discover" style="width:700px;">
-                                        <figcaption style="margin-bottom: 30px;">{{ post.prototype-3-statement }}</figcaption>
+                                        <img src="img/portfolio/{{ post.prototype-3-fixed }}" class="img-responsive img-centered" alt="Prototype Discover" style="width:700px; margin-bottom: 0;">
+                                        <figcaption style="margin-bottom: 30px; margin-top: 5px;">{{ post.prototype-3-statement }}</figcaption>
                                     </figure>
                                     <figure style="text-align: center;">
-                                        <img src="img/portfolio/{{ post.prototype-4-fixed }}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px;">
-                                        <figcaption>{{ post.prototype-4-statement }}</figcaption>
+                                        <img src="img/portfolio/{{ post.prototype-4-fixed }}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px; margin-bottom: 0;">
+                                        <figcaption style="margin-top: 5px;">{{ post.prototype-4-statement }}</figcaption>
                                     </figure>
                                 {% endif %}
 
+                            {% endif %}
+
+                            {% if post.software-development %}
+                                <h3 style="margin-top: 30px;">{{ post.software-development }}</h3>
+                                <p>{{ post.software-statement }}</p>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.software-image}}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px; margin-bottom: 0;">
+                                    <figcaption style="margin-top: 5px;">JS Development in VSCode</figcaption>
+                                </figure>
                             {% endif %}
 
                             {% if post.reflection %}
                                 <h3 style="margin-top: 30px;">Reflection</h3>
                                 <p>{{ post.reflection }}</p>
                                 <p>A clickable prototype of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
+                            {% endif %}
+
+                            {% if post.bee-reflection %}
+                                <h3 style="margin-top: 30px;">Reflection</h3>
+                                <p>{{ post.bee-reflection }}</p>
+                                <p>A live version of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
                             {% endif %}
 
 
