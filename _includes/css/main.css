@@ -26,7 +26,7 @@ a.active {
     color: #9ea1a3;
 }
 
-a.navbar-brand:hover {
+.navbar-brand:hover {
     color: #9ea1a3;
 }
 
@@ -174,7 +174,8 @@ header .intro-text .skills {
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #9ea1a3;
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #1c79d6;
 }
 
 .navbar-default,
@@ -414,6 +415,10 @@ footer .footer-below {
 .btn-success {
     background-color: #000000; 
     border-color: #000000;
+}
+
+.btn-success:hover {
+    background-color: #9ea1a3;
 }
 
 .scroll-top {

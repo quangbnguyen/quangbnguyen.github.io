@@ -7,7 +7,7 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: BeeBeeMath is an online math education platform designed to assist kindergarten teachers in educating kindergarteners basic math concepts. It serves as an in-class tool for the teachers to help kids learn and fully grasp the fundamentals of math.
 time-frame: 24 hours (Hackathon)
 tasks: Research, Design, Software Development
 tools: Figma, JavaScript, React
