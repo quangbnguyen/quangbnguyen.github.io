@@ -11,11 +11,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                        <div class="modal-body" style="text-align: left;">
+                            <h2 style="text-align: center;">{{ post.title }}</h2>
                             <!-- <hr class="star-primary"> -->
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="margin-top: 30px;">
-                            <ul class="list-inline item-details">
+                            <ul class="list-inline item-details" style="font-size: 18px;">
                                 {% if post.time-frame %}
                                     <li>Timeframe:
                                         <strong>{{ post.time-frame }}
@@ -47,15 +47,20 @@
                             {% endif %}
 
                             {% if post.overview %}
-                                <h3>Overview</h3>
+                                <h3 style="margin-top: 30px;">Overview</h3>
                                 <p>{{ post.overview }}</p>
                             {% endif %}
 
+                            {% if post.similar-products %}
+                                <h3 style="margin-top: 30px;">Similar Products</h3>
+                                <p>{{ post.similar-products }}</p>
+                            {% endif %}
+
                             {% if post.competitive-analysis %}
-                                <h3>Competitive Analysis</h3>
+                                <h3 style="margin-top: 30px;">Competitive Analysis</h3>
                                 <p>{{ post.competitive-analysis }}</p>
                                 <p>These apps:</p>
-                                <ul>
+                                <ul style="font-size: 20px;">
                                     <li>{{ post.competitive-1 }}</li>
                                     <li>{{ post.competitive-2 }}</li>
                                     <li>{{ post.competitive-3 }}</li>
@@ -63,9 +68,9 @@
                             {% endif %}
 
                             {% if post.user-research %}
-                                <h3>User Research</h3>
+                                <h3 style="margin-top: 30px;">User Research</h3>
                                 {% if post.research-questions %}
-                                    <h4>{{ post.research-questions }}</h4>
+                                    <h4 style="margin-top: 20px;">{{ post.research-questions }}</h4>
                                     <ol>
                                         <li>
                                             <p><strong>{{ post.question-1 }}</strong></p>
@@ -81,49 +86,76 @@
                                         </li>
                                     </ol>
                                 {% endif %}
+
                                 {% if post.qualitative-study %}
-                                    <h4>{{ post.qualitative-study }}: Semi-structured interview</h4>
-                                    <h5>{{ post.research-goal }}</h5>
+                                    <h4 style="margin-top: 20px;">{{ post.qualitative-study }}: Semi-structured interview</h4>
+                                    <h5 style="margin-top: 15px; margin-bottom: 5px;">{{ post.research-goal }}</h5>
                                     {% if post.goal-1 %}
                                         <p>I wanted to learn more about: </p>
-                                        <ul>
+                                        <ul style="font-size: 20px;">
                                             <li>{{ post.goal-1 }}</li>
                                             <li>{{ post.goal-2 }}</li>
                                             <li>{{ post.goal-3 }}</li>
                                         </ul>
-                                        <p>{{ post.goal-statement }}</p>
                                     {% endif %}
-                                    <h5>User Interview</h5>
+                                    <p>{{ post.goal-statement }}</p>
+                                    <h5 style="margin-top: 15px; margin-bottom: 5px;">User Interview</h5>
                                     <p>{{ post.user-interview }}</p>
                                     {% if post.user-personas %}
-                                        <h5>{{ post.user-personas }}</h5>
-                                        <img src="img/portfolio/{{ post.image-1 }}" class="img-responsive img-centered" alt="Persona 1">
-                                        <p>{{ post.persona-statement-1 }}</p>
-                                        <img src="img/portfolio/{{ post.image-2 }}" class="img-responsive img-centered" alt="Persona 2">
-                                        <p>{{ post.persona-statement-2 }}</p>
-                                        <img src="img/portfolio/{{ post.image-3 }}" class="img-responsive img-centered" alt="Persona 3">
+                                        <h5 style="margin-top: 15px;">{{ post.user-personas }}</h5>
+                                        <img src="img/portfolio/{{ post.image-1 }}" class="img-responsive img-centered" alt="Persona 1" style="width:700px;">
+                                        <p style="margin-bottom: 20px;">{{ post.persona-statement-1 }}</p>
+                                        <img src="img/portfolio/{{ post.image-2 }}" class="img-responsive img-centered" alt="Persona 2" style="width:700px;">
+                                        <p style="margin-bottom: 20px;">{{ post.persona-statement-2 }}</p>
+                                        <img src="img/portfolio/{{ post.image-3 }}" class="img-responsive img-centered" alt="Persona 3" style="width:700px;">
                                         <p>{{ post.persona-statement-3 }}</p>
                                     {% endif %}
+                                {% endif %}
+                                
+                                {% if post.key-findings %}
+                                    <h4 style="margin-top: 20px;">{{ post.key-findings }}</h4>
+                                    <figure style="text-align: center;">
+                                        <img src="img/portfolio/{{ post.key-image }}" class="img-responsive img-centered" alt="Affinity Diagram" style="width:700px;">
+                                        <figcaption>{{ post.key-statement }}</figcaption> 
+                                    </figure>
+                                    <h5 style="margin-top: 20px; margin-bottom: 5px;">{{ post.synthesis-1 }}</h5>
+                                    <p>{{ post.synthesis-statement-1 }}</p>
+                                    <h5 style="margin-top: 20px; margin-bottom: 5px;">{{ post.synthesis-2 }}</h5>
+                                    <p>{{ post.synthesis-statement-2 }}</p>
+                                    <h5 style="margin-top: 20px; margin-bottom: 5px;">{{ post.synthesis-3 }}</h5>
+                                    <p>{{ post.synthesis-statement-3 }}</p>
+                                    <h5 style="margin-top: 20px; margin-bottom: 5px;">{{ post.synthesis-4 }}</h5>
+                                    <p>{{ post.synthesis-statement-4 }}</p>
                                 {% endif %}
                             {% endif %}
                             
                             {% if post.research-synthesis %}
-                                <h3>{{ post.research-synthesis }}</h3>
-                                <h5>{{ post.synthesis-1 }}</h5>
+                                <h3 style="margin-top: 30px;">{{ post.research-synthesis }}</h3>
+                                <h5 style="margin-top: 20px; margin-bottom: 5px;">{{ post.synthesis-1 }}</h5>
                                 <p>{{ post.synthesis-statement-1 }}</p>
-                                <h5>{{ post.synthesis-2 }}</h5>
+                                <h5 style="margin-top: 20px; margin-bottom: 5px;">{{ post.synthesis-2 }}</h5>
                                 <p>{{ post.synthesis-statement-2 }}</p>
-                                <h5>{{ post.synthesis-3 }}</h5>
+                                <h5 style="margin-top: 20px; margin-bottom: 5px;">{{ post.synthesis-3 }}</h5>
                                 <p>{{ post.synthesis-statement-3 }}</p>
-                                <h5>{{ post.synthesis-4 }}</h5>
+                                <h5 style="margin-top: 20px; margin-bottom: 5px;">{{ post.synthesis-4 }}</h5>
                                 <p>{{ post.synthesis-statement-4 }}</p>
                             {% endif %}
 
+                            {% if post.adjustments %}
+                                <h3 style="margin-top: 30px;">{{ post.adjustments }}</h3>
+                                <p>{{ post.adjustments-statement }}: </p>
+                                <ol style="font-size: 20px;">
+                                    <li>{{ post.adjustment-1 }}</li>
+                                    <li>{{ post.adjustment-2 }}</li>
+                                    <li>{{ post.adjustment-3 }}</li>
+                                </ol>
+                            {% endif %}
+
                             {% if post.ideation %}
-                                <h3>{{ post.ideation }}</h3>
+                                <h3 style="margin-top: 30px;">{{ post.ideation }}</h3>
                                 {% if post.feature-1 %}
                                     <p>{{ post.feature-statement }}: </p>
-                                    <ol>
+                                    <ol style="font-size: 20px;">
                                         <li>{{ post.feature-1 }}</li>
                                         <li>{{ post.feature-2 }}</li>
                                         <li>{{ post.feature-3 }}</li>
@@ -132,53 +164,99 @@
                             {% endif %}
 
                             {% if post.user-flow %}
-                                <h3>{{ post.user-flow }}</h3>
-                                <figure>
-                                    <img src="img/portfolio/{{ post.flow-image }}" class="img-responsive img-centered" alt="User Flow">
+                                <h3 style="margin-top: 30px;">{{ post.user-flow }}</h3>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.flow-image }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
                                     <figcaption>{{ post.flow-caption }}</figcaption> 
                                 </figure>
                             {% endif %}
 
+                            {% if post.ideation-sketch %}
+                                <h3 style="margin-top: 30px;">{{ post.ideation-sketch }}</h3>
+                                <p>{{ post.ideation-statement }}</p>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.ideation-1 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
+                                    <figcaption>{{ post.ideation-1-caption }}</figcaption> 
+                                </figure>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.ideation-2 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
+                                    <figcaption>{{ post.ideation-2-caption }}</figcaption> 
+                                </figure>
+                            {% endif %}
+
+                            {% if post.high-fidelity-pro %}
+                                <h3 style="margin-top: 30px;">{{ post.high-fidelity-pro }}</h3>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.prototype-pro-1 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
+                                    <figcaption>{{ post.prototype-pro-1-statement }}</figcaption> 
+                                </figure>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.prototype-pro-2 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px;">
+                                    <figcaption>{{ post.prototype-pro-2-statement }}</figcaption> 
+                                </figure>
+                            {% endif %}
+
                             {% if post.high-fidelity %} 
-                                <h3>{{ post.high-fidelity }}</h3>
-                                <figure>
-                                    <img src="img/portfolio/{{ post.prototype-1 }}" class="img-responsive img-centered" alt="Prototype Sign-in">
-                                    <figcaption>{{ post.prototype-1-statement }}</figcaption>
+                                <h3 style="margin-top: 30px;">{{ post.high-fidelity }}</h3>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.prototype-1 }}" class="img-responsive img-centered" alt="Prototype Sign-in" style="width:700px;">
+                                    <figcaption style="margin-bottom: 10px;">{{ post.prototype-1-statement }}</figcaption>
                                 </figure>
-                                <figure>
-                                    <img src="img/portfolio/{{ post.prototype-2 }}" class="img-responsive img-centered" alt="Prototype Home">
-                                    <figcaption>{{ post.prototype-2-statement }}</figcaption>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.prototype-2 }}" class="img-responsive img-centered" alt="Prototype Home" style="width:700px;">
+                                    <figcaption style="margin-bottom: 30px;">{{ post.prototype-2-statement }}</figcaption>
                                 </figure>
-                                <figure>
-                                    <img src="img/portfolio/{{ post.prototype-3 }}" class="img-responsive img-centered" alt="Prototype Discover">
-                                    <figcaption>{{ post.prototype-3-statement }}</figcaption>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.prototype-3 }}" class="img-responsive img-centered" alt="Prototype Discover" style="width:700px;">
+                                    <figcaption style="margin-bottom: 30px;">{{ post.prototype-3-statement }}</figcaption>
                                 </figure>
-                                <figure>
-                                    <img src="img/portfolio/{{ post.prototype-4 }}" class="img-responsive img-centered" alt="Prototype Stats">
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.prototype-4 }}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px;">
                                     <figcaption>{{ post.prototype-4-statement }}</figcaption>
                                 </figure>
                             {% endif %}
 
                             {% if post.usability-testing %}
-                                <h3>{{ post.usability-testing }}</h3>
+                                <h3 style="margin-top: 30px;">{{ post.usability-testing }}</h3>
                                 <p>{{ post.usability-statement }}</p>
                                 <p>{{ post.issues }}: </p>
-                                <ul>
+                                <ul style="font-size: 20px;">
                                     <li>{{ post.issue-1 }}</li>
                                     <li>{{ post.issue-2 }}</li>
                                     <li>{{ post.issue-3 }}</li>
                                 </ul>
                                 <p>{{ post.solutions }}: </p>
-                                <ul>
+                                <ul style="font-size: 20px;">
                                     <li>{{ post.solution-1 }}</li>
                                     <li>{{ post.solution-2 }}</li>
                                     <li>{{ post.solution-3 }}</li>
                                 </ul>
+
+                                {% if post.prototype-fixed %}
+                                    <figure style="text-align: center;">
+                                        <img src="img/portfolio/{{ post.prototype-1-fixed }}" class="img-responsive img-centered" alt="Prototype Sign-in" style="width:700px;">
+                                        <figcaption style="margin-bottom: 10px;">{{ post.prototype-1-statement }}</figcaption>
+                                    </figure>
+                                    <figure style="text-align: center;">
+                                        <img src="img/portfolio/{{ post.prototype-2-fixed }}" class="img-responsive img-centered" alt="Prototype Home" style="width:700px;">
+                                        <figcaption style="margin-bottom: 30px;">{{ post.prototype-2-statement }}</figcaption>
+                                    </figure>
+                                    <figure style="text-align: center;">
+                                        <img src="img/portfolio/{{ post.prototype-3-fixed }}" class="img-responsive img-centered" alt="Prototype Discover" style="width:700px;">
+                                        <figcaption style="margin-bottom: 30px;">{{ post.prototype-3-statement }}</figcaption>
+                                    </figure>
+                                    <figure style="text-align: center;">
+                                        <img src="img/portfolio/{{ post.prototype-4-fixed }}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px;">
+                                        <figcaption>{{ post.prototype-4-statement }}</figcaption>
+                                    </figure>
+                                {% endif %}
+
                             {% endif %}
 
                             {% if post.reflection %}
-                                <h3>{{ post.reflection }}</h3>
-                                <p>A clickable prototype of the app is available <a src="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
+                                <h3 style="margin-top: 30px;">Reflection</h3>
+                                <p>{{ post.reflection }}</p>
+                                <p>A clickable prototype of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
                             {% endif %}
 
 
