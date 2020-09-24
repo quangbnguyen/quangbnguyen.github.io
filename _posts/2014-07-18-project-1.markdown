@@ -7,5 +7,75 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: FlexFit is a personalized fitness mobile application that motivates people to get exercise and actually stick to their plan by having them set up their own daily workout routines.
+time-frame: 30 days
+tasks: User Research, Interaction Design
+tools: Figma, Miro
+team: Quang Nguyen
+overview: People are concerned about their health and physical shapes. This is quite understandable considering how the words “fitness” and “exercise” have consistently been hot keywords on Google Search in the last five years, according to Google Trends. Many people now commit to gym memberships and/or rely on personal trainers to help them lose weight and stay fit. What about people who do not have the time or money to commit to gym memberships but still want to get fit? They need a convenient way to help them exercise more. This service should provide them with the ease of use and the flexibility of setting their own pace to avoid burnout. FlexFit was born to serve that mission.
+competitive-analysis: There are currently many smartphone fitness apps on the market, such as Home Workout by Leap Fitness Group, MyFitnessPal, FitOn, Daily Workouts Free, etc. Even Google made their own fitness app. By surfing through these apps and consulting some of their active users, I have identified several critical shortcomings they are having.
+competitive-1: Bombards users with too many statistics - most of which are not important to users
+competitive-2: Do not allow users to set up their own workout schedule/routine, which demotivates them to keep up with their fitness plans/goals in the long run.
+competitive-3: Do not allow users to create their favorite batch of activities, which is not favorable, as people are motivated by things that they like.
+user-research: User Research
+research-questions: Research Questions
+question-1: Why do people want to exercise?
+answer-1: The main reasons are that people want to live a healthier lifestyle, lose weight, and appear more attractive to others. Improving their energy and stamina is also key.
+question-2: What concretely happens when they do manage to exercise?
+answer-2: When people exercise for the first time, they feel more alert and energized because their heart rates are ramping up and more oxygen is being delivered to their brains. After these moments, however, they start to experience DOMS, or delayed onset muscle soreness, which makes their certain body parts ache for up to about 72 hours. When people keep up their momentum and exercise regularly, DOMS stops happening and they keep their body in control. When people manage to exercise frequently with their schedule, they feel like they’ve accomplished something by building their self-discipline. They feel healthier and are able to do more work.
+question-3: What concretely happens when something prevents them from exercising?
+answer-3: When something prevents people from exercising, they’ll probably notice a decrease in muscle mass, which can happen in as quickly as two weeks. Their bone density, flexibility, and overall blood flow also decrease. Long-term inactivity will affect them from head to toe, with symptoms such as increased weight gain, blood pressure issues, bone density loss, strength and stamina deterioration.
+qualitative-study: Qualitative Study
+research-goal: Research Goal
+goal-1: Why do people want to start exercising?
+goal-2: How might we keep people engaged in physical activities?
+goal-3: What do people really need in a fitness app?
+goal-statement: These findings will inform me about the various aspects of fitness and what features I should build to serve a very niche market for at-home users.
+user-interview: Due to financial constraints, I invited 4 participants who are friends or acquaintances, who did not exercise as much as they’d like, and are active smartphone users, to a 30-minute interview session. I asked them about their interests, habits, daily routines, overall health concerns, desirable health conditions, and reasoning as well as pain points around getting exercise/taking care of their bodies.
+user-personas: User Personas
+image-1: flex-persona-1.png
+persona-statement-1: Cindy highlights the group of people who get tired frequently throughout their day because they are too focused on their work and do not get enough physical exercise. These people often spend most of their time looking at electronic devices, either for entertainment or professional purposes, so they get fatigued easily. They desperately want to be able to lead their day with more energy so they can engage in other exciting activities outside their mainstream work.
+image-2: flex-persona-2.png
+persona-statement-2: Ryan represents the group of people who are engulfed with their working schedule that they have a hard time allocating time to anything else in their life. They want to exercise more often, but they don’t have time to commit to gym memberships. If new things want to have a spot in their life, those have to be set in order or follow a routine. They want to have the ability to exercise more and regularly without interfering with their working schedule. 
+image-3: flex-persona-3.png
+persona-statement-3: Peter showcases a group of people who have placed themselves in worse health conditions due to poor diet choices with daily high-calorie intakes, while seldom engaging in intense physical activity, possibly due to the nature of their jobs. People like Peter lack a proper system that would allow them to start building self-discipline for their bodies and empower them to strive to get in better shapes. They want to see the progress they’ve made on their journey.
+research-synthesis: Research Synthesis
+synthesis-1: People who do not have the time or money to commit to gym memberships turn to their smartphones to help them exercise
+synthesis-statement-1: People who can’t go to the gym or hire a personal trainer for various reasons often seek viable online services that would help them improve their fitness. Smartphone apps currently dominate the market and something that we are all familiar with. They offer valuable workouts along with detailed instructions that are so convenient to mobile users, which they can’t get anywhere else.
+synthesis-2: People don’t want heavy workouts that could burn them out like at the gym or extensive equipment.
+synthesis-statement-2: People who use a mobile fitness app to help them exercise expect their workout sessions to be relatively short and not as heavy as gym workouts. Workout sessions at the gym tend to be quite intense, partly due to the equipment, and partly due to the pace of the trainers. People who use mobile fitness apps want to exercise with the equipment being their bodies and the grounds in their homes or workplaces, for the most part.
+synthesis-3: Flexibility in setting your own schedule helps ease people into building their own fitness plan
+synthesis-statement-3: As pointed out in the competitive analysis, many fitness apps on the market do not allow users to create their own fitness plan/schedule. Giving people the ability to set their own pace and bring together their favorite batch of workouts/activities motivate them to exercise more regularly.
+synthesis-4: Having a consistent routine keeps people motivated and actually stick to it
+synthesis-statement-4: Routines are what keep us sane in today’s complicated world. Having people turn their fitness plan into routines relieve them from the burden of remembering details and turning their personal mission into habits. Plans suck. Routines are what people stick to in the long run.
+ideation: Ideation
+proposed-features: Proposed Features
+feature-statement: Three main features of the apps are
+feature-1: Keep track of your workout streaks and your important numbers only (burned calories, weight, height, and BMI)
+feature-2: Set up your own daily workout routines
+feature-3: View a library of full-body exercises, which are free for you to add to your routines
+user-flow: User Flow
+flow-image: flex-user-flow.png
+flow-caption: This sitemap presents the main user flow of the application
+high-fidelity: High-fidelity Prototype
+prototype-1: flex-prototype-1.png
+prototype-1-statement: Sign-in/Sign-up
+prototype-2: flex-prototype-2.png
+prototype-2-statement: Home
+prototype-3: flex-prototype-3.png
+prototype-3-statement: Discover
+prototype-4: flex-prototype-4.png
+prototype-4-statement: Statistics & Profile
+usability-testing: Usability Testing
+usability-statement: Since most of my user participants are friends and acquaintances, I came directly to them to test out whether my design is working.
+issues: Below are the most common complaints from users
+issue-1: Some buttons are a bit small and have low color contrasts
+issue-2: Background images are too bright such that texts are hard to see in some places
+issue-3: Users currently can't change the order of the exercises once added
+solutions: Solutions
+solution-1: Increase the size of the buttons and improve the color contrast to follow WCAG Guidelines
+solution-2: Make background images darker so that the texts stand out
+solution-3: Add one additional feature to allow users to change the order of the exercises in their routines
+reflection: This case study is the product of my training with Design Thinking, supported by resources from the Interaction Design Foundation. The Design Thinking process has been a methodology as well as a mindset in helping me understand people’s problems and figure out solutions, developing empathy and taking into account various perspectives. This experience has taught me to bring about insights, synthesize them in conjunction with my background in Computer Science, and deliver a relevant product to users who care about fitness.
+clickable-prototype: https://www.figma.com/proto/UqCveBE8jRZdoYx9QjBnmb/Fitness?node-id=74%3A376&viewport=-70%2C313%2C0.5&scaling=scale-down
 ---
