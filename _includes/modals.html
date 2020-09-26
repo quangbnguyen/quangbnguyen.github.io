@@ -203,6 +203,7 @@
 
                             {% if post.high-fidelity-pro %}
                                 <h3 style="margin-top: 30px;">{{ post.high-fidelity-pro }}</h3>
+                                <p style="margin-top: 20px;">A clickable prototype of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
                                 <figure style="text-align: center;">
                                     <img src="img/portfolio/{{ post.prototype-pro-1 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px; margin-top: 20px; margin-bottom: 0;">
                                     <figcaption style="margin-bottom: 30px; margin-top: 5px;">{{ post.prototype-pro-1-statement }}</figcaption> 
@@ -215,6 +216,7 @@
 
                             {% if post.high-fidelity %} 
                                 <h3 style="margin-top: 30px;">{{ post.high-fidelity }}</h3>
+                                <p style="margin-top: 20px;">A clickable prototype of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
                                 <figure style="text-align: center;">
                                     <img src="img/portfolio/{{ post.prototype-1 }}" class="img-responsive img-centered" alt="Prototype Sign-in" style="width:700px; margin-bottom: 5;">
                                     <figcaption style="margin-bottom: 10px;">{{ post.prototype-1-statement }}</figcaption>
@@ -282,14 +284,14 @@
                             {% if post.reflection %}
                                 <h3 style="margin-top: 30px;">Reflection</h3>
                                 <p>{{ post.reflection }}</p>
-                                <p>A clickable prototype of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
+                                <!-- <p>A clickable prototype of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p> -->
                             {% endif %}
 
-                            {% if post.bee-reflection %}
+                            <!-- {% if post.bee-reflection %}
                                 <h3 style="margin-top: 30px;">Reflection</h3>
                                 <p>{{ post.bee-reflection }}</p>
                                 <p>A live version of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
-                            {% endif %}
+                            {% endif %} -->
 
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

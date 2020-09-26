@@ -26,7 +26,6 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    /* color: #{{ site.color.primary }}; */
     color: #9ea1a3;
 }
 
@@ -172,7 +171,7 @@ header .intro-text .skills {
     outline: 0;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-header>a:hover {
     color: #9ea1a3;
     /* background-color: transparent; */
     background-color: #1c79d6;

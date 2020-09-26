@@ -37,6 +37,6 @@ prototype-4-statement: Lessons presented as a slideboard for each topic
 software-development: Software Development
 software-image: bee-software.png
 software-statement: The Beebeemath web app was developed with React in conjunction with the library Material-UI in 24 hours.
-bee-reflection: We were nominated for Best Design Prize in the competition. Even though we did not win the prize, my partner and I were proud about our achievement and grateful for the opportunity we had to turn our knowledge into a working product that would help millions of young children learn math.
+reflection: We were nominated for Best Design Prize in the competition. Even though we did not win the prize, my partner and I were proud about our achievement and grateful for the opportunity we had to turn our knowledge into a working product that would help millions of young children learn math.
 clickable-prototype: https://beebeemath.firebaseapp.com/
 ---
