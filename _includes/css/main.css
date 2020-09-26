@@ -184,6 +184,10 @@ header .intro-text .skills {
     color: #9ea1a3;
 }
 
+.navbar-default .navbar-brand[tabindex]:focus {
+    color: #fff;
+}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
