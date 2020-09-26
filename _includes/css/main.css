@@ -40,6 +40,9 @@ h6 {
     font-weight: 700;
 }
 
+h5 {
+    font-size: 16px;
+}
 /* hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -175,6 +178,10 @@ header .intro-text .skills {
     color: #9ea1a3;
     /* background-color: transparent; */
     background-color: #1c79d6;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #9ea1a3;
 }
 
 .navbar-default,

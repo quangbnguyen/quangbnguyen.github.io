@@ -49,6 +49,7 @@ synthesis-statement-3: As pointed out in the competitive analysis, many fitness 
 synthesis-4: Having a consistent routine keeps people motivated and actually stick to it
 synthesis-statement-4: Routines are what keep us sane in today’s complicated world. Having people turn their fitness plan into routines relieve them from the burden of remembering details and turning their personal mission into habits. Plans suck. Routines are what people stick to in the long run.
 ideation: Ideation
+pov: “People who want to improve their fitness without having to go to the gym needs a smartphone app to help them exercise more because it provides them with the flexibility of setting their own plan and following their own pace.”
 proposed-features: Proposed Features
 feature-statement: Three main features of the apps are
 feature-1: Keep track of your workout streaks and your important numbers only (burned calories, weight, height, and BMI)
