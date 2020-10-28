@@ -40,13 +40,13 @@ persona-statement-2: Ryan represents the group of people who are engulfed with t
 image-3: flex-persona-3.png
 persona-statement-3: Peter showcases a group of people who have placed themselves in worse health conditions due to poor diet choices with daily high-calorie intakes, while seldom engaging in intense physical activity, possibly due to the nature of their jobs. 
 research-synthesis: Research Synthesis
-synthesis-1: People who do not have the time or money to commit to gym memberships turn to their smartphones to help them exercise
+synthesis-1: 1. People who do not have the time or money to commit to gym memberships turn to their smartphones to help them exercise
 synthesis-statement-1: People who can’t go to the gym or hire a personal trainer for various reasons often seek viable online services that would help them improve their fitness. Smartphone apps offer valuable workouts along with detailed instructions that are convenient to mobile users, which they can’t get anywhere else.
-synthesis-2: People don’t want heavy workouts that could burn them out like at the gym or extensive equipment.
+synthesis-2: 2. People don’t want heavy workouts that could burn them out like at the gym or extensive equipment.
 synthesis-statement-2: People expect their workout sessions to be relatively short and not as heavy as gym workouts. They want to exercise with the equipment being only their bodies and the grounds in their homes or workplaces.
-synthesis-3: Flexibility in setting your own schedule helps ease people into building their own fitness plan
+synthesis-3: 3. Flexibility in setting your own schedule helps ease people into building their own fitness plan
 synthesis-statement-3: Giving people the ability to set their own pace and bring together their favorite batch of workouts/activities motivate them to exercise more regularly.
-synthesis-4: Having a consistent routine keeps people motivated and actually stick to it
+synthesis-4: 4. Having a consistent routine keeps people motivated and actually stick to it
 synthesis-statement-4: Routines are what keep us sane in today’s complicated world. Having people turn their fitness plan into routines relieve them from the burden of remembering details and turning their personal mission into habits.
 ideation: Ideation
 pov: “People who want to improve their fitness without having to go to the gym needs a smartphone app to help them exercise more because it provides them with the flexibility of setting their own plan and following their own pace.”
@@ -69,6 +69,8 @@ prototype-4: flex-workout-session.png
 prototype-4-statement: Starting a workout session
 prototype-5: flex-stats.png
 prototype-5-statement: User report and statistics
+prototype-6: flex-all.png
+prototype-6-statement: Overview of FlexFit
 usability-testing: Usability Testing
 usability-statement: I invited my study participants to a testing session and observed their behaviours and expressions while using the app.
 issues: Below are the most problematic areas in the prototype
