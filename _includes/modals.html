@@ -208,7 +208,7 @@
 
                             {% if post.high-fidelity-pro %}
                                 <h3 style="margin-top: 30px;">{{ post.high-fidelity-pro }}</h3>
-                                <p style="margin-top: 20px;">A clickable prototype of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
+                                <p style="margin-top: 20px;"><a href="{{ post.clickable-prototype }}" target="_blank"></a>A clickable prototype of the app is available here</a>.</p>
                                 <figure style="text-align: center;">
                                     <img src="img/portfolio/{{ post.prototype-pro-1 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px; margin-top: 20px; margin-bottom: 0;">
                                     <figcaption style="margin-bottom: 30px; margin-top: 5px;">{{ post.prototype-pro-1-statement }}</figcaption> 
@@ -217,26 +217,34 @@
                                     <img src="img/portfolio/{{ post.prototype-pro-2 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px; margin-top: 20px; margin-bottom: 0;">
                                     <figcaption style="margin-top: 5px;">{{ post.prototype-pro-2-statement }}</figcaption> 
                                 </figure>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.prototype-pro-3 }}" class="img-responsive img-centered" alt="User Flow" style="width:700px; margin-top: 20px; margin-bottom: 0;">
+                                    <figcaption style="margin-top: 5px;">{{ post.prototype-pro-3-statement }}</figcaption> 
+                                </figure>
                             {% endif %}
 
                             {% if post.high-fidelity %} 
                                 <h3 style="margin-top: 30px;">{{ post.high-fidelity }}</h3>
-                                <p style="margin-top: 20px;">A clickable prototype of the app is available <a href="{{ post.clickable-prototype }}" target="_blank">here</a>.</p>
+                                <p style="margin-top: 20px;"><a href="{{ post.clickable-prototype }}" target="_blank"></a>A clickable prototype of the app is available here</a>.</p>
                                 <figure style="text-align: center;">
-                                    <img src="img/portfolio/{{ post.prototype-1 }}" class="img-responsive img-centered" alt="Prototype Sign-in" style="width:700px; margin-bottom: 5;">
+                                    <img src="img/portfolio/{{ post.prototype-1 }}" class="img-responsive img-centered" alt="Prototype Sign-in" style="width:700px; margin-bottom: 5px;">
                                     <figcaption style="margin-bottom: 10px;">{{ post.prototype-1-statement }}</figcaption>
                                 </figure>
                                 <figure style="text-align: center;">
-                                    <img src="img/portfolio/{{ post.prototype-2 }}" class="img-responsive img-centered" alt="Prototype Home" style="width:700px; margin-bottom: 5">
+                                    <img src="img/portfolio/{{ post.prototype-2 }}" class="img-responsive img-centered" alt="Prototype Home" style="width:700px; margin-bottom: 5px">
                                     <figcaption style="margin-bottom: 30px;">{{ post.prototype-2-statement }}</figcaption>
                                 </figure>
                                 <figure style="text-align: center;">
-                                    <img src="img/portfolio/{{ post.prototype-3 }}" class="img-responsive img-centered" alt="Prototype Discover" style="width:700px; margin-bottom: 5">
+                                    <img src="img/portfolio/{{ post.prototype-3 }}" class="img-responsive img-centered" alt="Prototype Discover" style="width:700px; margin-bottom: 5px">
                                     <figcaption style="margin-bottom: 30px;">{{ post.prototype-3-statement }}</figcaption>
                                 </figure>
                                 <figure style="text-align: center;">
-                                    <img src="img/portfolio/{{ post.prototype-4 }}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px;">
-                                    <figcaption>{{ post.prototype-4-statement }}</figcaption>
+                                    <img src="img/portfolio/{{ post.prototype-4 }}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px; margin-bottom: 5px">
+                                    <figcaption style="margin-bottom: 30px;">{{ post.prototype-4-statement }}</figcaption>
+                                </figure>
+                                <figure style="text-align: center;">
+                                    <img src="img/portfolio/{{ post.prototype-5 }}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px;">
+                                    <figcaption>{{ post.prototype-5-statement }}</figcaption>
                                 </figure>
                             {% endif %}
 
@@ -268,10 +276,6 @@
                                     <figure style="text-align: center;">
                                         <img src="img/portfolio/{{ post.prototype-3-fixed }}" class="img-responsive img-centered" alt="Prototype Discover" style="width:700px; margin-bottom: 0;">
                                         <figcaption style="margin-bottom: 30px; margin-top: 5px;">{{ post.prototype-3-statement }}</figcaption>
-                                    </figure>
-                                    <figure style="text-align: center;">
-                                        <img src="img/portfolio/{{ post.prototype-4-fixed }}" class="img-responsive img-centered" alt="Prototype Stats" style="width:700px; margin-bottom: 0;">
-                                        <figcaption style="margin-top: 5px;">{{ post.prototype-4-statement }}</figcaption>
                                     </figure>
                                 {% endif %}
 

@@ -17,20 +17,20 @@ similar-products: RefWorks, Zotero, Mendeley
 user-research: User Research
 qualitative-study: Qualitative Study
 research-goal: Research Goal
-goal-statement: I want to learn about how college students manage online references for their writing projects, including how they are doing this, and what existing products/tools they are using to help them store online sources. I can use these findings to determine whether there are actual needs for EasyRef and make better decisions on the features we should build.
-user-interview: I invited 5 college students to participate in a 30-minute in-person interview session. I asked the participants about their overall college experience, the frequency of their writing projects, how they currently manage online sources, and major pain points they are enduring.
+goal-statement: I want to learn about how college students manage online references for their writing projects, including how they are doing this, and what existing products/tools they are using to help them store online sources.
+user-interview: I invited 5 college students to participate in a 30-minute in-person interview session.
 key-findings: Key Findings
 key-image: easy-affinity.png
 key-statement: Affinity diagram of user insights created with Miro
 include-synthesis: okay 
-synthesis-1: Students value the management of online references
-synthesis-statement-1: All interviewed students and their known friends store online sources in one place for their writing assignments. Research requires a huge amount of time and students have to keep references somewhere so they do not lose track of those references for later when they actually write their papers. Some students even say that organizing their references helps them get a good sense of how to outline their papers.
-synthesis-2: Specialized reference-management tools are a must for complex writing projects
-synthesis-statement-2: Two participants who have to do complex writing projects (projects that are long and require a large number of sources) regularly both use specialized tools to manage their references. They can’t simply rely on note-taking apps to organize their sources, so they find other more specialized tools to help them avoid unnecessary confusion.
-synthesis-3: Automation is the ultimate hero
-synthesis-statement-3: All participants want their reference-management apps to automate manual tasks that they have to do. Students want to retrieve information about their sources as quickly as possible. Processes such as viewing the author’s name, the source’s format, publisher, and making bibliography should be completely automated.
-synthesis-4: Collaboration support is important
-synthesis-statement-4: Some students often have to engage in collaborative writing projects with their classmates. Products such as Zotero offer a sharing feature, but it is far too complicated and time-consuming for college students. Students want to have Google-docs or Evernote-style collaboration because it is simple, easy, and straightforward.
+synthesis-1: 1. Students value the management of online references
+synthesis-statement-1: All interviewed students and their known friends store online sources in one place for their writing assignments. 
+synthesis-2: 2. Specialized reference-management tools are a must for complex writing projects
+synthesis-statement-2: Participants who have to do complex writing projects rely on specialized tools to organize their online sources.
+synthesis-3: 3. Automation is the ultimate hero
+synthesis-statement-3: All participants want their reference-management apps to automate manual tasks that they usually have to do.
+synthesis-4: 4. Collaboration support is important
+synthesis-statement-4: Students want to have Google-docs or Evernote-style collaboration feature for their teamwork projects.
 adjustments: Research-driven Adjustments
 adjustments-statement: After having done extensive user research, here are some adjustments I'd like to make
 adjustment-1: Provide a browser extension to help students add links quickly to their projects without having to copy and paste links manually
@@ -50,6 +50,8 @@ prototype-pro-1: easy-hifi-basic-1.png
 prototype-pro-1-statement: Sign-in
 prototype-pro-2: easy-hifi-basic-2.png
 prototype-pro-2-statement: Sign-up
+prototype-pro-3: easy-proto-home.png
+prototype-pro-3-statement: Home page
 usability-testing: Usability Testing and Design Iterations
 usability-statement: I conducted unmoderated remote usability testing using Lookback. Some students were sent emails with an invitation to participate in the study anytime and at any place they want.
 issues: Below are the most significant usability issues
@@ -61,14 +63,12 @@ solution-1: The user-information button is moved to the top-right corner for use
 solution-2: Improve the color contrast for the site to make sure it follows WCAG
 solution-3: Change the user login flow to help users spend less time signing in
 prototype-fixed: okay
-prototype-1-fixed: easy-hifi-fixed-1.png
-prototype-1-statement: Sign-in
-prototype-2-fixed: easy-hifi-fixed-2.png
-prototype-2-statement: Sign-up
-prototype-3-fixed: easy-hifi-fixed-3.png
-prototype-3-statement: Single-page app
-prototype-4-fixed: easy-hifi-fixed-4.png
-prototype-4-statement: Sources’ information is displayed on the right
+prototype-1-fixed: easy-new-fix-1.png
+prototype-1-statement: Improved color contrast
+prototype-2-fixed: easy-new-fix-2.png
+prototype-2-statement: Faster and more familiar login flow
+prototype-3-fixed: easy-new-fix-3.png
+prototype-3-statement: Sources' information is displayed on the right
 reflection: This project has been a delight to work on. Due to having a sufficient timeframe, I followed the double-diamond design process, which I am aware of as being impractical to many real-world constraints. However, it has undoubtedly helped me become a better decision-maker in developing empathy with users and trying to bring to users the best possible products. I am glad that I have helped solve an enduring issue for many college students.
 clickable-prototype: https://www.figma.com/proto/KhY1N4rZZckhjv8vm94aPf/Design?node-id=199%3A225&viewport=-119%2C661%2C0.25&scaling=min-zoom
 
